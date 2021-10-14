@@ -3,7 +3,7 @@ const router = require('./routes/router')
 const path = require('path');
 const fs = require('fs')
 
-const PORT = 5500;
+const PORT = process.env.PORT || 5500;
 
 const app = express();
 
